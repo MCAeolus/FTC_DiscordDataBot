@@ -3,7 +3,7 @@ const https = require('https');
 const fs = require('fs');
 const client = new Discord.Client();
 const TOA_web = 'https://www.theorangealliance.org/api'
-const defaultsPackage = []
+var defaultsPackage = []
 const prefix = '!!'
 
 fs.readFile('defaults.txt', 'utf8', function(err,data) {
