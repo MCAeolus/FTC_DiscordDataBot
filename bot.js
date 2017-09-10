@@ -38,7 +38,8 @@ fs.readFile('defaults.txt', 'utf8', function(err,data) {
 		});
 		client.login(defaultsPackage[0]);
 	}
-}
+});
+
 function getTOA_Stats(apiSubRoutine){
 	var options = {	
 		host: TOA_web,
