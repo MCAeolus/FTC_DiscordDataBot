@@ -5,7 +5,7 @@ const fs = require('fs');
 const util = require('util');
 const client = new Discord.Client();
 const TOA_web = 'theorangealliance.org'
-const prefix = '420'
+const prefix = '+'
 var defaultsPackage = []
 
 fs.readFile('defaults.txt', 'utf8', function(err,data) {
